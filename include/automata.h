@@ -17,7 +17,7 @@ private:
     STATES state = STATES::OFF;
     vector<Drink> menu;
 public:
-    Automata(const vector<Drink>&);
+    Automata(const vector<Drink>);
     void on();
     unsigned int off();
     unsigned int coin(unsigned int);

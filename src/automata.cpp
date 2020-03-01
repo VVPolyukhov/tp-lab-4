@@ -5,7 +5,7 @@ bool Automata::isOn() {
     return state == STATES::OFF;
 }
 
-Automata::Automata(const vector<Drink>& menu) {
+Automata::Automata(const vector<Drink> menu) {
     this->menu = menu;
 }
 
